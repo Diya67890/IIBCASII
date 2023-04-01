@@ -1,0 +1,19 @@
+ Explain Unix Architecture
+The Unix comprises mainly three layers such as kernel, shell, and user application.
+
+
+Kernel - This is the core layer of the operating system which interacts with the hardware of the system. The kernel provides API via system calls to process the user requests. The kernel also provides services such as signal handling, synchronization, interprocess communication,  file system services,  network services,  and hardware monitoring. Each time a process is started, the kernel has to initialize the process, assign the process apriority, allocate memory and resources for the process, and schedule the process to run. When the process terminates, the kernel frees any memory and/or resources held by the process.
+
+2. Define a single-user system.
+Single-user systems are the ones with an operating system to cater to only one user at a time. These are commonly our personal computers and became popular due to low hardware cost and wide range of software.
+
+3. Name a few significant features of UNIX?
+The following are a few features of UNIX:
+
+Hardware independent
+Multi-user operations
+Unix Shells
+Hierarchical file system
+Pipes and filters
+Utilities
+Development tools
